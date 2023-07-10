@@ -7,10 +7,12 @@ body {
     font-family: 'Work Sans', sans-serif;
     padding: 0 0;
 }
-section{
+
+section {
     padding: 50px 0;
     height: 100vh;
 }
+
 .btn-primary {
     margin: 5px;
     border-radius: 5px;
@@ -27,11 +29,10 @@ section{
     margin: 5px;
     border-radius: 5px;
     background-color: #005FAC;
-    ;
     border: 1px solid #005FAC;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px 30px;
 }
 
@@ -70,7 +71,7 @@ main {
     padding: 0 150px;
 }
 
-.failer-container {    
+.failer-container {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -87,16 +88,18 @@ main {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 25px;
-    
+
 }
+
 .call-title {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
     line-height: normal;
     width: 550px;
-    
+
 }
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -117,7 +120,7 @@ ul {
     padding: 10px;
 }
 
-ul li{
+ul li {
     padding-top: 10px;
 }
 
@@ -127,31 +130,92 @@ ul li:before {
     padding: 0px 10px;
 }
 
-.plan-boxs{
+.plan-boxs {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: 25px 25px;
 }
 
-.plans{
+.plans {
     margin: 15px;
     width: 200px;
 }
-.plans > img, h4, p{
+
+.plans>img,
+h4,
+p {
     margin-bottom: 15px;
 }
 
-.call-banner{ 
-    
+.call-banner {
+
     background-image: url("../images/gradient1.png"), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover, cover;
     padding: 65px;
-    border-radius: 8px; 
+    border-radius: 8px;
     border: 0;
 }
 
-.call-title{
+.call-title {
     margin-bottom: 15px;
+}
+
+footer {
+    color: #ffffff;
+    padding: 100px 150px;
+    background-color: #151414;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column-a {
+    width: 500px;
+    /* border: 1px solid #FFF; */
+}
+
+.footer-column-a>p {
+    margin-bottom: 25px;
+}
+
+.footer-column-b {
+    width: 400px;
+    /* border: 1px solid #FFF; */
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.footer-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email {
+    margin: 10px 5px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    width: 90%;
+    height: 50px;
+    color:#F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    background:none;
+}
+.icon{
+    padding: 0 10px;
 }
